@@ -29,5 +29,6 @@ class AuthLocalDataSource {
       log('Sign in failed: $e');
    //   throw Exception(e.toString());
     }
+    return null;
   }
 }
